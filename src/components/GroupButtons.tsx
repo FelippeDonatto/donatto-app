@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export function GroupButtons() {
   return (
-    <div className="mt-6">
+    <div className="mt-6 w-full max-w-[500px]">
       <Link href="https://github.com/felippedonatto" target="_blank">
         <Button>Acesse meu Github</Button>
       </Link>

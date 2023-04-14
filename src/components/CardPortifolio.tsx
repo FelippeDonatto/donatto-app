@@ -1,9 +1,9 @@
 import Image from 'next/image'
-import { Button } from '@/components/Button'
 import Link from 'next/link'
+import { Button } from '@/components/Button'
 
-import boraCodar01 from '/public/portifolio/boracodar01.png'
-import boraCodar02 from '/public/portifolio/boracodar02.png'
+import boraCodarUm from '/public/portifolio/boraCodarUm.png'
+import boraCodarDois from '/public/portifolio/boraCodarDois.png'
 import devLink from '/public/portifolio/devLink.png'
 import telaLogin from '/public/portifolio/tela-login.png'
 import botoes from '/public/portifolio/botoes.png'
@@ -13,7 +13,7 @@ export function CardPortifolio() {
   return (
     <>
       <div className="backdrop-blur-sm bg-white/10 p-4 rounded-lg w-full max-w-[300px] mx-auto">
-        <Image src={boraCodar01} alt="" className="rounded-t-lg" />
+        <Image src={boraCodarUm} alt="" className="rounded-t-lg" />
         <hgroup>
           <h3 className="my-2 font-bold text-center uppercase">Play Music</h3>
         </hgroup>
@@ -23,7 +23,7 @@ export function CardPortifolio() {
       </div>
 
       <div className="backdrop-blur-sm bg-white/10 p-4 rounded-lg w-full max-w-[300px] mx-auto">
-        <Image src={boraCodar02} alt="" className="rounded-t-lg" />
+        <Image src={boraCodarDois} alt="" className="rounded-t-lg" />
         <hgroup>
           <h3 className="my-2 font-bold text-center uppercase">Card produto</h3>
         </hgroup>
