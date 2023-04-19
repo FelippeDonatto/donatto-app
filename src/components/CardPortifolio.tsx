@@ -14,26 +14,6 @@ export function CardPortifolio() {
   return (
     <>
       <div className="backdrop-blur-sm bg-white/10 p-4 rounded-lg w-full max-w-[300px] mx-auto">
-        <Image src={boraCodarUm} alt="" className="rounded-t-lg" />
-        <hgroup>
-          <h3 className="my-2 font-bold text-center uppercase">Play Music</h3>
-        </hgroup>
-        <Link href="https://play-music-next.vercel.app/" target="_blank">
-          <Button>Veja mais</Button>
-        </Link>
-      </div>
-
-      <div className="backdrop-blur-sm bg-white/10 p-4 rounded-lg w-full max-w-[300px] mx-auto">
-        <Image src={boraCodarDois} alt="" className="rounded-t-lg" />
-        <hgroup>
-          <h3 className="my-2 font-bold text-center uppercase">Card produto</h3>
-        </hgroup>
-        <Link href="https://card-produto-two.vercel.app/" target="_blank">
-          <Button>Veja mais</Button>
-        </Link>
-      </div>
-
-      <div className="backdrop-blur-sm bg-white/10 p-4 rounded-lg w-full max-w-[300px] mx-auto">
         <Image src={telaLogin} alt="" className="rounded-t-lg" />
         <hgroup>
           <h3 className="my-2 font-bold text-center uppercase">
@@ -51,6 +31,26 @@ export function CardPortifolio() {
           <h3 className="my-2 font-bold text-center uppercase">Dev Link</h3>
         </hgroup>
         <Link href="https://dev-links-phi.vercel.app/" target="_blank">
+          <Button>Veja mais</Button>
+        </Link>
+      </div>
+
+      <div className="backdrop-blur-sm bg-white/10 p-4 rounded-lg w-full max-w-[300px] mx-auto">
+        <Image src={boraCodarUm} alt="" className="rounded-t-lg" />
+        <hgroup>
+          <h3 className="my-2 font-bold text-center uppercase">Play Music</h3>
+        </hgroup>
+        <Link href="https://play-music-next.vercel.app/" target="_blank">
+          <Button>Veja mais</Button>
+        </Link>
+      </div>
+
+      <div className="backdrop-blur-sm bg-white/10 p-4 rounded-lg w-full max-w-[300px] mx-auto">
+        <Image src={boraCodarDois} alt="" className="rounded-t-lg" />
+        <hgroup>
+          <h3 className="my-2 font-bold text-center uppercase">Card produto</h3>
+        </hgroup>
+        <Link href="https://card-produto-two.vercel.app/" target="_blank">
           <Button>Veja mais</Button>
         </Link>
       </div>
