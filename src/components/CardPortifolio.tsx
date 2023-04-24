@@ -9,6 +9,7 @@ import telaLogin from '/public/portifolio/tela-login.png'
 import botoes from '/public/portifolio/botoes.png'
 import chat from '/public/portifolio/chat.png'
 import calculadora from '/public/portifolio/boraCodarCinco.png'
+import cartao from '/public/portifolio/boraCodarSeis.png'
 
 export function CardPortifolio() {
   return (
@@ -85,6 +86,16 @@ export function CardPortifolio() {
           <h3 className="my-2 font-bold text-center uppercase">Calculadora</h3>
         </hgroup>
         <Link href="https://calculadora-eta-steel.vercel.app/" target="_blank">
+          <Button>Veja mais</Button>
+        </Link>
+      </div>
+
+      <div className="backdrop-blur-sm bg-white/10 p-4 rounded-lg w-full max-w-[300px] mx-auto">
+        <Image src={cartao} alt="" className="rounded-t-lg" />
+        <hgroup>
+          <h3 className="my-2 font-bold text-center uppercase">Cartão de embarque</h3>
+        </hgroup>
+        <Link href="https://cartao-embarque-omega.vercel.app/" target="_blank">
           <Button>Veja mais</Button>
         </Link>
       </div>
